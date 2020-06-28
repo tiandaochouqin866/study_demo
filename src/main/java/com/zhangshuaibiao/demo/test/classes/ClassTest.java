@@ -16,6 +16,7 @@ public class ClassTest {
             Object obj = clz.newInstance();
             Method refFatherMethod = clz.getMethod("refFatherMethod");
             Method refSonMethod = clz.getDeclaredMethod("refSonMethod");
+            refFatherMethod.invoke(obj);
             refSonMethod.invoke(obj);
         } catch (Exception e) {
             e.printStackTrace();
