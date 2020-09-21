@@ -1,7 +1,5 @@
-package com.zhangshuaibiao.demo.test.schedule;
+package com.zhangshuaibiao.demo.task.schedule;
 
-import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
